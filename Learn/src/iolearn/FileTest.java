@@ -11,13 +11,12 @@ public class FileTest {
         int level = 0;
         System.out.println(file.getName());
         printFile(file,level);
+        System.out.println("测试");
     }
 
     private static void printFile(File file, int level) {
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i <= level; i++) {
-            sb.append("  ");
-        }
+        sb.append("  ".repeat(Math.max(0, level + 1)));
         sb.append("├-");
         File[] files = file.listFiles();
         assert files != null;
@@ -28,6 +27,5 @@ public class FileTest {
                 printFile(file1,++level);
             }
         }
-
     }
 }
