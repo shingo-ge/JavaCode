@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="bcprov-jdk15on-166">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Tools/Development/Java/Libraries/Bouncy Castle 1.66/bcprov-jdk15on-166.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../Tools/Development/Java/Libraries/Bouncy Castle 1.66/bcprov-jdk15on-166/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Tools/Development/Java/Libraries/Bouncy Castle 1.66/bcprov-jdk15on-166" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../Tools/Development/Java/Libraries/Bouncy Castle 1.66/bcprov-jdk15on-166" recursive="false" type="SOURCES" />
+  </library>
+</component>

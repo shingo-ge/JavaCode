@@ -39,5 +39,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="bcprov-jdk15on-166" level="project" />
   </component>
 </module>
